@@ -168,6 +168,69 @@ footer{
 .fill{
     padding: 5px;
 }
-@media screen {
+
+@media only screen and (max-width: 950px){
+    main{
+        width: 100%;
+    }
+    .top-section{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        order: 2;
+        width: 60%;
+    }
+    .artical-blog{
+        grid-template-columns: 1fr 1fr;
+    }
+    .last-section{
+        grid-template-columns: 1fr;
+    }
+   
+    .right1{
+        margin-left: 100px;
+    }
+    .right1 a{
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        width: 20%;
+    }
+   
+    
+}
+@media only screen and (max-width: 550px){
+    main{
+        max-width: 100%;
+    }
+    .top-section{
+        grid-template-columns: 1fr;
+    }
+    .left{
+        order: 2;
+    }
+    .middle-section{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .artical-blog{
+        grid-template-columns: 1fr;
+    }
+    .last-section{
+        grid-template-columns: 1fr;
+    }
+    .left1{
+        margin-right: 70px;
+    }
+    
+    .right1{
+        margin-left: 100px;
+    }
+    .right1 a{
+        margin-bottom: 20px;
+        padding: 5px 20px;
+        width: 30%;
+    }
     
 }
